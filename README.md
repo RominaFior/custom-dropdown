@@ -16,16 +16,16 @@ Before you start, ensure that you have the following tools installed:
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/RominaFior/custom-dropdown.git
-    cd custom-dropdown
-    ```
+   ```bash
+   git clone https://github.com/RominaFior/custom-dropdown.git
+   cd custom-dropdown
+   ```
 
 2. **Install dependencies:**
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ## Development Server
 
@@ -33,7 +33,7 @@ Run the project locally using the Angular development server:
 
 ```bash
 ng serve
-````
+```
 
 Open your browser and navigate to [http://localhost:4200/](http://localhost:4200/) for Angular or [http://localhost:8100/](http://localhost:8100/) for Ionic to see your app in action.
 
@@ -42,6 +42,8 @@ Open your browser and navigate to [http://localhost:4200/](http://localhost:4200
 This project replicates a dropdown view with specific styling and behavior requirements. The dropdown is implemented using Ionic and Angular, adhering to the BEM naming convention for CSS.
 
 - The dropdown component is designed for a viewport of 1920x1080.
+
+![Custom dropdown desktop](./src/assets/dropdown-img.png)
 
 ## Contributing
 
