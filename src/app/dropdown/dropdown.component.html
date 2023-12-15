@@ -1,0 +1,23 @@
+<div>
+  <p class="dropdown-title">Custom Dropdown</p>
+  <div class="custom-dropdown" [ngClass]="{ expanded: isDropdownExpanded }">
+    <div
+      class="selected-option"
+      (click)="isDropdownExpanded = !isDropdownExpanded"
+    >
+      {{ selectedOption }}
+      <img src="../../assets/chevron.svg" class="custom-dropdown__icon" />
+    </div>
+
+    <ul *ngIf="isDropdownExpanded">
+      <li
+        *ngFor="let option of options; let i = index"
+        (click)="onSelectChange(option.label)"
+        [ngClass]="{ selected: option.label === selectedOption }"
+      >
+        {{ option.label }}
+      </li>
+    </ul>
+  </div>
+  <p class="selected-text">Selected: {{ selectedLabelText }}</p>
+</div>

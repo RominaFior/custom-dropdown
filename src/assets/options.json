@@ -1,0 +1,28 @@
+{
+    "options": [
+        {
+            "value": "option1",
+            "label": "Custom Dropdown test"
+        },
+        {
+            "value": "option2",
+            "label": "Second Dropdown option"
+        },
+        {
+            "value": "option3",
+            "label": "Third Dropdown option"
+        },
+        {
+            "value": "option4",
+            "label": "Another one"
+        },
+        {
+            "value": "option5",
+            "label": "But not less important"
+        },
+        {
+            "value": "option6",
+            "label": "The last option in the dropdown"
+        }
+    ]
+}
